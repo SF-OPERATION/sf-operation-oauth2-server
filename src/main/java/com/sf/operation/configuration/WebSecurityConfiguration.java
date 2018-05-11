@@ -20,7 +20,7 @@ public class WebSecurityConfiguration extends WebSecurityConfigurerAdapter{
 		
 		auth
 			.inMemoryAuthentication()
-			.withUser("admin").password("admin").roles("ADMIN").and()
+			.withUser("sbfapiadmin").password("12345678").roles("ADMIN").and()
 			.withUser("user").password("user").roles("USER");
 	}
 	
